@@ -1,0 +1,1168 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'nl' Physical Memory: 32697 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/magic/Documents/GIP/Party Island/Party-Island/Party Island
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53276
+Successfully changed project path to: C:/Users/magic/Documents/GIP/Party Island/Party-Island/Party Island
+C:/Users/magic/Documents/GIP/Party Island/Party-Island/Party Island
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/magic/Documents/GIP/Party Island/Party-Island/Party Island/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001799 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (489ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (849ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 2.416000 ms (FindLiveObjects: 0.111600 ms CreateObjectMapping: 0.041700 ms MarkObjects: 2.215200 ms  DeleteObjects: 0.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/POLYART_Ancient Village
+  artifactKey: Guid(7b8e04414890d764e91fdc8b88f6cccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village using Guid(7b8e04414890d764e91fdc8b88f6cccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc575d05d02fb295dfcefe74dc7929c') in 0.006498 seconds 
+  Import took 0.008519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.088945 seconds.
+  path: Assets/Customizable Skybox
+  artifactKey: Guid(ef909e379e20f434e8badc2e5634db2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox using Guid(ef909e379e20f434e8badc2e5634db2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0b0939aa6fcc1567721ce8a600d987') in 0.005776 seconds 
+  Import took 0.008050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.223735 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain
+  artifactKey: Guid(4e29d2466a1890543b35bf1c6a15c764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain using Guid(4e29d2466a1890543b35bf1c6a15c764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288065e61d53fb9fd93c2c70034fa117') in 0.006389 seconds 
+  Import took 0.008833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050057 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundGreen_1.terrainlayer
+  artifactKey: Guid(28bd944cc609b1541b7028350ebbf02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundGreen_1.terrainlayer using Guid(28bd944cc609b1541b7028350ebbf02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f2b6ea1d8b4821244f1fbffc1a42d1') in 0.073023 seconds 
+  Import took 0.074993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundGreen_2.terrainlayer
+  artifactKey: Guid(16981b63c41161a4399602a01871d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundGreen_2.terrainlayer using Guid(16981b63c41161a4399602a01871d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d5b327d005f8c1db311441b115231e') in 0.016270 seconds 
+  Import took 0.018129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundGreen_3.terrainlayer
+  artifactKey: Guid(d14e2c0cb90b5854db37b97b7b8f7f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundGreen_3.terrainlayer using Guid(d14e2c0cb90b5854db37b97b7b8f7f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858318a4d82a23fe8951ad844149606b') in 0.013574 seconds 
+  Import took 0.015607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/TerrainData.asset
+  artifactKey: Guid(b52215fba149caa4098afd538c410f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/TerrainData.asset using Guid(b52215fba149caa4098afd538c410f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PA_RockSet1_Pile1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_RockSet1_Pile4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_RockSet1_Pile2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_RockSet1_Pile3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_RockSet1_Pile5 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_RockSet1_Pile6 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_RockSet1_Pile7 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_Bambooset1_Stick4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_TreeSet1_Pile2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_TreeSet1_Pile11 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PA_TreeSet1_Pile12 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '9de2e0890f5fd623f8d23c69ffa6d17f') in 0.102143 seconds 
+  Import took 0.105260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_2.terrainlayer
+  artifactKey: Guid(c9c0103110e300543ba65152f7e7edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_2.terrainlayer using Guid(c9c0103110e300543ba65152f7e7edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1b870f9a0c439140d872d13bd5c115') in 0.010080 seconds 
+  Import took 0.012072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_8.terrainlayer
+  artifactKey: Guid(fa6002ae4bf15d1428fa30a1563ec6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_8.terrainlayer using Guid(fa6002ae4bf15d1428fa30a1563ec6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd803b8e8132a6c88bc9d6020c2313536') in 0.007841 seconds 
+  Import took 0.009837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_5.terrainlayer
+  artifactKey: Guid(a82394c86ef611b46a122e65d1427b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_5.terrainlayer using Guid(a82394c86ef611b46a122e65d1427b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4facdc950e2d850c97e3a69ed29f61') in 0.009532 seconds 
+  Import took 0.011504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_7.terrainlayer
+  artifactKey: Guid(9c1d4af1faf38244d8b2817e2470aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_7.terrainlayer using Guid(9c1d4af1faf38244d8b2817e2470aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e92a3f1efd22672b754154e18864000') in 0.007527 seconds 
+  Import took 0.009566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_3.terrainlayer
+  artifactKey: Guid(9cf59b35fa2af7d4dab617267d08f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_3.terrainlayer using Guid(9cf59b35fa2af7d4dab617267d08f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60725e904328bd1814564b90f5d3db51') in 0.009258 seconds 
+  Import took 0.011244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_4.terrainlayer
+  artifactKey: Guid(ac64836655539e742835df844fba60ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_4.terrainlayer using Guid(ac64836655539e742835df844fba60ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd6fcdfcb50e25de6b9dbc775bfdf2c') in 0.009701 seconds 
+  Import took 0.012142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundRock_1.terrainlayer
+  artifactKey: Guid(76c9959a52c8ae3409a47d223dc34788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundRock_1.terrainlayer using Guid(76c9959a52c8ae3409a47d223dc34788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af1a13b7045381c6e1720a5d2561da4') in 0.009155 seconds 
+  Import took 0.011150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_1.terrainlayer
+  artifactKey: Guid(8ef8aa43648fd8847b42f1f11f658082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_1.terrainlayer using Guid(8ef8aa43648fd8847b42f1f11f658082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807bce62df186d201eba406a9aca5598') in 0.009172 seconds 
+  Import took 0.011161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_6.terrainlayer
+  artifactKey: Guid(6c74c2e8c95d03a42aabf248c37deadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_6.terrainlayer using Guid(6c74c2e8c95d03a42aabf248c37deadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bb678228b47f0e49cbc42c439f8d83') in 0.008383 seconds 
+  Import took 0.010251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.559103 seconds.
+  path: Assets/POLYART_Ancient Village/Textures
+  artifactKey: Guid(2449432c6c85414449f532d4d4966607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures using Guid(2449432c6c85414449f532d4d4966607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba5b46fe33e158e9c44f13e38451e43') in 0.005108 seconds 
+  Import took 0.007159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.506823 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian
+  artifactKey: Guid(d2334e8c95a24464e97923ae34c78781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian using Guid(d2334e8c95a24464e97923ae34c78781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eefd9c7ce4d24627e11c05d047663b2') in 0.005328 seconds 
+  Import took 0.007300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.327497 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground
+  artifactKey: Guid(77d98302a0733f94cbbc960cb87bc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground using Guid(77d98302a0733f94cbbc960cb87bc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba146458edfa264593733a149bdfc7') in 0.004833 seconds 
+  Import took 0.006874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050781 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreen_1.png
+  artifactKey: Guid(6ce0f98802b142740b0e8916d3a3e127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreen_1.png using Guid(6ce0f98802b142740b0e8916d3a3e127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b5226ff99b571de398770eddd57470') in 0.010122 seconds 
+  Import took 0.012083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_10.png
+  artifactKey: Guid(267c2839d7d0abb40bca3df63e432820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_10.png using Guid(267c2839d7d0abb40bca3df63e432820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3107b8ee80949bbf6501073dda4faa2') in 0.008072 seconds 
+  Import took 0.010049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_3.png
+  artifactKey: Guid(5b81b9861d1fb2640b2331c17b314619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_3.png using Guid(5b81b9861d1fb2640b2331c17b314619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f580a4e21a6534c6176b3379a9bc97e3') in 0.016230 seconds 
+  Import took 0.018352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundRock_1.png
+  artifactKey: Guid(b3be6222e1e4a724a829c29f8690f44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundRock_1.png using Guid(b3be6222e1e4a724a829c29f8690f44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1ffcbdd440f6ae4198fb8af18be9dd') in 0.008133 seconds 
+  Import took 0.010028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_4.png
+  artifactKey: Guid(516e17d431833f345bf5194f5b0b4377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_4.png using Guid(516e17d431833f345bf5194f5b0b4377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b67200015119d9355f1cb53fd15564f') in 0.008056 seconds 
+  Import took 0.010009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_5.png
+  artifactKey: Guid(5a4fd5fd3ffa3634dac9db17521baecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_5.png using Guid(5a4fd5fd3ffa3634dac9db17521baecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a0594355b1545d2f1e8d177324a985') in 0.007264 seconds 
+  Import took 0.009479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_9.png
+  artifactKey: Guid(7ac495d6f1bce3e4686ee259af036073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_9.png using Guid(7ac495d6f1bce3e4686ee259af036073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d03ba0f817703ca3c1553ff7be43e4e') in 0.007828 seconds 
+  Import took 0.009913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_5.png
+  artifactKey: Guid(b12fa94c6d8f4894f95417d02db7e542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_5.png using Guid(b12fa94c6d8f4894f95417d02db7e542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7e691526efd634ea15e9ae873f1325') in 0.008543 seconds 
+  Import took 0.010590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_1.png
+  artifactKey: Guid(f8f6832d24c8d42489395ceee1cfb71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_1.png using Guid(f8f6832d24c8d42489395ceee1cfb71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0124990b4166fc669485d07364729c6') in 0.007411 seconds 
+  Import took 0.009455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_3.png
+  artifactKey: Guid(746e12336206a4d4a804eb5c574823aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_3.png using Guid(746e12336206a4d4a804eb5c574823aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eaddce76ceed6171a40a011e0053fd') in 0.007534 seconds 
+  Import took 0.009494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_1.png
+  artifactKey: Guid(998b6db7d00c33e478536ed86ebe4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_1.png using Guid(998b6db7d00c33e478536ed86ebe4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987225d5dd08251c9a69386396306937') in 0.008639 seconds 
+  Import took 0.010561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreen_2.png
+  artifactKey: Guid(bb094c199413ec64b811bb157e6de2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreen_2.png using Guid(bb094c199413ec64b811bb157e6de2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddd1db1fe33f3edb58f537b21b82237') in 0.007995 seconds 
+  Import took 0.010124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_2.png
+  artifactKey: Guid(82c360ada4a0fe148a035a3ef04bc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_2.png using Guid(82c360ada4a0fe148a035a3ef04bc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a911cc36d79a3b25981ce74a2653e06c') in 0.009022 seconds 
+  Import took 0.011082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/SandNormal.png
+  artifactKey: Guid(3f5e632b49b927f4c96760f66cca24a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/SandNormal.png using Guid(3f5e632b49b927f4c96760f66cca24a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8487f97746b806558c5e236428f7bb') in 0.008355 seconds 
+  Import took 0.010313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_2.png
+  artifactKey: Guid(1bcdee215fa6f2648b54a14b15851fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_2.png using Guid(1bcdee215fa6f2648b54a14b15851fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640f7c89f567744aa99e028189ad359b') in 0.008008 seconds 
+  Import took 0.009982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_4.png
+  artifactKey: Guid(319b5fd3f5f29e14b94f17cd622372c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_4.png using Guid(319b5fd3f5f29e14b94f17cd622372c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceebf7aa6146183865c644b702606b1b') in 0.007339 seconds 
+  Import took 0.009483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_1.png
+  artifactKey: Guid(5379627da54816a4aa615d8c1e3e7dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_1.png using Guid(5379627da54816a4aa615d8c1e3e7dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9ce80fc2153e8b6cf4b330672d426f') in 0.009214 seconds 
+  Import took 0.011545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundRockNormal_1.png
+  artifactKey: Guid(12397f46a277a0c42b8bd4324719c8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundRockNormal_1.png using Guid(12397f46a277a0c42b8bd4324719c8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447ecbf2681a8e8b5ceb6bef3ac94f79') in 0.008749 seconds 
+  Import took 0.010643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_3.png
+  artifactKey: Guid(9392b9f092475004dbd67f1071ad3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_3.png using Guid(9392b9f092475004dbd67f1071ad3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c95ec1ee097aa6db761f5a28dabacd') in 0.008515 seconds 
+  Import took 0.010343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreen_3.png
+  artifactKey: Guid(d9721f65c457c074dbe3fe8145d6c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreen_3.png using Guid(d9721f65c457c074dbe3fe8145d6c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a0dbd20df0da04aa1897783e43720a') in 0.007592 seconds 
+  Import took 0.009527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_7.png
+  artifactKey: Guid(39e51e28b0b53d747a9440d043f78b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_7.png using Guid(39e51e28b0b53d747a9440d043f78b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eb68d0336cd4c382bd040a9eafe28b') in 0.007248 seconds 
+  Import took 0.009131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_8.png
+  artifactKey: Guid(31b43404c979b2b4aae54ac4b22ebb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_8.png using Guid(31b43404c979b2b4aae54ac4b22ebb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7737b5e16e1e49ab0f915ea9fb499ed') in 0.005069 seconds 
+  Import took 0.007097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_2.png
+  artifactKey: Guid(55d25acdd15978c4682aefc242bc79d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_2.png using Guid(55d25acdd15978c4682aefc242bc79d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827c6f9571e117b083080b273e55574e') in 0.009682 seconds 
+  Import took 0.011710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_6.png
+  artifactKey: Guid(843b955963a68db4abd32bd1a0457ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_6.png using Guid(843b955963a68db4abd32bd1a0457ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53037495bd65f304e8e535991442026') in 0.004687 seconds 
+  Import took 0.006529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.941256 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes
+  artifactKey: Guid(4ca2997ae64be4247a7e888d13af6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes using Guid(4ca2997ae64be4247a7e888d13af6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295c8fcdb730e0ccdf2db8c846e761ad') in 0.006176 seconds 
+  Import took 0.008401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.913547 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs
+  artifactKey: Guid(1ba951a865a9a5843882fce59fd8b561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs using Guid(1ba951a865a9a5843882fce59fd8b561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83efe9d3a839ad30e2437ea12024883d') in 0.005576 seconds 
+  Import took 0.007643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049518 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BambooBridge_1.prefab
+  artifactKey: Guid(e0ecbe591d4370e4ab8921de56c573b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BambooBridge_1.prefab using Guid(e0ecbe591d4370e4ab8921de56c573b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc42263dc4aa7d0fbb789df4da67290') in 0.039463 seconds 
+  Import took 0.042408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint3.prefab
+  artifactKey: Guid(bb2b7aeb112031843b3d79019ba8e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint3.prefab using Guid(bb2b7aeb112031843b3d79019ba8e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9738fe9b01bd7d60648cb745213525') in 0.010222 seconds 
+  Import took 0.012228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick4.prefab
+  artifactKey: Guid(0955d992df5d6b54c8da8b5c1e009d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick4.prefab using Guid(0955d992df5d6b54c8da8b5c1e009d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5525d8fffa2cc0c5ed1f3326a55cec01') in 0.009228 seconds 
+  Import took 0.011224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile10.prefab
+  artifactKey: Guid(238e5715ddb3baf43ade44c21261f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile10.prefab using Guid(238e5715ddb3baf43ade44c21261f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca72aa710eab29d776c1e4c8e439399') in 0.009960 seconds 
+  Import took 0.012087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_PortalSphere.prefab
+  artifactKey: Guid(f5df5e09d6babdc4ab33ded5a6e1a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_PortalSphere.prefab using Guid(f5df5e09d6babdc4ab33ded5a6e1a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859d7ad64634c5eccbeae8b0973945b1') in 0.008605 seconds 
+  Import took 0.010553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile3.prefab
+  artifactKey: Guid(76f538fcfff666d4894fa169e7c14328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile3.prefab using Guid(76f538fcfff666d4894fa169e7c14328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994e6ccece2d212a8802fca027e42fc0') in 0.008651 seconds 
+  Import took 0.010595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill3.prefab
+  artifactKey: Guid(5e02c28cda3c5c043a8d1a459a3c56fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill3.prefab using Guid(5e02c28cda3c5c043a8d1a459a3c56fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03393a8061013727a3f1c1c58053a64a') in 0.008999 seconds 
+  Import took 0.011064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile2.prefab
+  artifactKey: Guid(26c23e6fad131984bbccc1850c944e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile2.prefab using Guid(26c23e6fad131984bbccc1850c944e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca83e7948f1b623fb102f0bac7f730a3') in 0.014262 seconds 
+  Import took 0.016207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill6.prefab
+  artifactKey: Guid(ba5491d12af7b764793c828e273c168b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill6.prefab using Guid(ba5491d12af7b764793c828e273c168b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1a35430bf2b7a9a68ad8616892ea07') in 0.009184 seconds 
+  Import took 0.011299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile1.prefab
+  artifactKey: Guid(b0caf8f2b511ed948be263d59a83cd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile1.prefab using Guid(b0caf8f2b511ed948be263d59a83cd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30e4965afdaa1a79e4e0c96dae63e5a') in 0.008303 seconds 
+  Import took 0.010306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BambooHouse_2.prefab
+  artifactKey: Guid(4b1e876c867187342ade905889af887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BambooHouse_2.prefab using Guid(4b1e876c867187342ade905889af887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c940aaaf9d8fcacf882541602a5c0520') in 0.086192 seconds 
+  Import took 0.096403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile3.prefab
+  artifactKey: Guid(67b99b0457efdfe4e96d052b5023d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile3.prefab using Guid(67b99b0457efdfe4e96d052b5023d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2996e20011ddbc8b6d16bfcfeb5e3c2d') in 0.010669 seconds 
+  Import took 0.012733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile4.prefab
+  artifactKey: Guid(110ab91f45d8a214a8062042ed7b6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile4.prefab using Guid(110ab91f45d8a214a8062042ed7b6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51fa2af20b288f004773f60a8672ccc') in 0.008618 seconds 
+  Import took 0.010623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile5.prefab
+  artifactKey: Guid(0364b6d6608ccec43a15f0fd7290ccb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile5.prefab using Guid(0364b6d6608ccec43a15f0fd7290ccb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6eec234826ba60848c72c93b2fc18c') in 0.008559 seconds 
+  Import took 0.010620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile2.prefab
+  artifactKey: Guid(669e1e710f7741e4aa5ea10e28dc816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile2.prefab using Guid(669e1e710f7741e4aa5ea10e28dc816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbbbf2aed04cc40ae2c473f531272a1') in 0.008966 seconds 
+  Import took 0.011075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile5.prefab
+  artifactKey: Guid(a0375c39d30f3754b99503ef1a476a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile5.prefab using Guid(a0375c39d30f3754b99503ef1a476a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9a9bacf72e9f5b7d081a77370675c3') in 0.008489 seconds 
+  Import took 0.010487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile5.prefab
+  artifactKey: Guid(414c98c2a0f5ccf4486883e34a1ee095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile5.prefab using Guid(414c98c2a0f5ccf4486883e34a1ee095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c98bb2ae65c08e115bcea7bcc59950') in 0.009877 seconds 
+  Import took 0.011884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile7.prefab
+  artifactKey: Guid(bb96a129de5586241a425d6bcf8f1f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile7.prefab using Guid(bb96a129de5586241a425d6bcf8f1f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8cc4284c430be764a3ef8ba9705a95') in 0.009064 seconds 
+  Import took 0.011070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bamboolamp_Set2.prefab
+  artifactKey: Guid(7673b3961ce73f04bac27eecf4041fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bamboolamp_Set2.prefab using Guid(7673b3961ce73f04bac27eecf4041fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dffa640dcf92f9e506ec847f2db5018') in 0.011745 seconds 
+  Import took 0.013925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill4.prefab
+  artifactKey: Guid(ef71cb488ba16b74eaf2162875b5cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill4.prefab using Guid(ef71cb488ba16b74eaf2162875b5cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6877c660a3c63b173893eba7f38ac1a3') in 0.008781 seconds 
+  Import took 0.010726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile12.prefab
+  artifactKey: Guid(1a7ecdeb83dc4074da160d2d10b1ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile12.prefab using Guid(1a7ecdeb83dc4074da160d2d10b1ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a885d38e1ee68571d6a9e1d38b8f4600') in 0.008420 seconds 
+  Import took 0.010417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill4.prefab
+  artifactKey: Guid(84b21cd9c885ed4489cd82a8d1e76404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill4.prefab using Guid(84b21cd9c885ed4489cd82a8d1e76404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39f4c790a1a1c177b64544360b0754e') in 0.008206 seconds 
+  Import took 0.010193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile6.prefab
+  artifactKey: Guid(6bf8783a9e4bced489d2f62821a6ff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile6.prefab using Guid(6bf8783a9e4bced489d2f62821a6ff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7af218047aef4d4bc68680da44603b') in 0.008515 seconds 
+  Import took 0.010542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_FireassetSet1_Source2.prefab
+  artifactKey: Guid(52d1f7f2ddd19f247911c64c34e43d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_FireassetSet1_Source2.prefab using Guid(52d1f7f2ddd19f247911c64c34e43d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf566218cacbc1a3906c9497aa55a8b') in 0.008738 seconds 
+  Import took 0.010772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick2.prefab
+  artifactKey: Guid(7ac7d6465006ca24080cfcf8defbdfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick2.prefab using Guid(7ac7d6465006ca24080cfcf8defbdfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71fe35c2710e15acd1d71cb5cfde12e') in 0.008591 seconds 
+  Import took 0.010933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile3.prefab
+  artifactKey: Guid(55d0cf9201b2ac8418490124e17fb500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile3.prefab using Guid(55d0cf9201b2ac8418490124e17fb500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33acfd5e037abed35a2e443bfc7b125') in 0.008544 seconds 
+  Import took 0.010627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Oldtext.prefab
+  artifactKey: Guid(f947b027811f37040be84c44d90532cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Oldtext.prefab using Guid(f947b027811f37040be84c44d90532cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a180292d6c0568763b5f4c02a2a73df9') in 0.008583 seconds 
+  Import took 0.010673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bamboolamp_Set1.prefab
+  artifactKey: Guid(eca7aa4c26c28454bb4dd3ae0b13c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bamboolamp_Set1.prefab using Guid(eca7aa4c26c28454bb4dd3ae0b13c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c6f6b8890dd7abfe0e6049ec01ff84') in 0.009834 seconds 
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill1.prefab
+  artifactKey: Guid(205dc750c0f1a414097299b0486dc5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill1.prefab using Guid(205dc750c0f1a414097299b0486dc5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74168806dc0197fd28970155dd735212') in 0.009118 seconds 
+  Import took 0.011610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile8.prefab
+  artifactKey: Guid(c4e585f5034785541a4b033a6cd92486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile8.prefab using Guid(c4e585f5034785541a4b033a6cd92486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f520692c6bb54bec0e427ac171f074') in 0.008838 seconds 
+  Import took 0.010838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick1.prefab
+  artifactKey: Guid(e3246b5e59d958447b25bee079599b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick1.prefab using Guid(e3246b5e59d958447b25bee079599b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ceadbe60c5ee5a736884ee30bdad63') in 0.009173 seconds 
+  Import took 0.011101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BambooHouse_1.prefab
+  artifactKey: Guid(8fb3b0705a622c949ab19d8151e272be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BambooHouse_1.prefab using Guid(8fb3b0705a622c949ab19d8151e272be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79a629f9b1bd062837edc91122f2b18') in 0.039201 seconds 
+  Import took 0.044666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_GroundAssetset_boat1.prefab
+  artifactKey: Guid(dd99a0e1bf0f5f247aa5cbc8b9473984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_GroundAssetset_boat1.prefab using Guid(dd99a0e1bf0f5f247aa5cbc8b9473984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70589a5e0dab848b280d84e83bd21d92') in 0.008671 seconds 
+  Import took 0.010805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill2.prefab
+  artifactKey: Guid(cae80e7e19b93014d81c2b7b4e200e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill2.prefab using Guid(cae80e7e19b93014d81c2b7b4e200e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9310fa663ff7272abd36370493b57fd5') in 0.009261 seconds 
+  Import took 0.011472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile9.prefab
+  artifactKey: Guid(8e640276918ddf64eb327dcf081c8406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile9.prefab using Guid(8e640276918ddf64eb327dcf081c8406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4984c01512d080c4a8e792e44955a131') in 0.008396 seconds 
+  Import took 0.010368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Water.prefab
+  artifactKey: Guid(fb3c2ca68d9871c4d9c9f18996d0c99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Water.prefab using Guid(fb3c2ca68d9871c4d9c9f18996d0c99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1655c4aa35ffcdad32c1b5cc852d99') in 0.008960 seconds 
+  Import took 0.011009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint4.prefab
+  artifactKey: Guid(728ecde6a69697e4ba2f11cbdea49852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint4.prefab using Guid(728ecde6a69697e4ba2f11cbdea49852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abebf700bf7a55e9ad07abc62836896') in 0.008502 seconds 
+  Import took 0.010569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile11.prefab
+  artifactKey: Guid(c07631e61b8f6754685de3cc0f3ff7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile11.prefab using Guid(c07631e61b8f6754685de3cc0f3ff7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fbae9b50ca7492114061f7a7722c05') in 0.009021 seconds 
+  Import took 0.011068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bridge.prefab
+  artifactKey: Guid(89d0c9d688e5cff48a2af0fa160bfd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bridge.prefab using Guid(89d0c9d688e5cff48a2af0fa160bfd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c975273f1562348bf5aae9edb394f5') in 0.128323 seconds 
+  Import took 0.141267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile4.prefab
+  artifactKey: Guid(c6cd0d35ad5483046a8c6cacdc4b8165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile4.prefab using Guid(c6cd0d35ad5483046a8c6cacdc4b8165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c464bbf887d5ba909fe2b833970841c') in 0.008909 seconds 
+  Import took 0.011031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint1.prefab
+  artifactKey: Guid(46b2191c533248a4189c8e50edf0ae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint1.prefab using Guid(46b2191c533248a4189c8e50edf0ae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08443bd6fea5cfc3e7b4f4ea7513627') in 0.009285 seconds 
+  Import took 0.011738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile3.prefab
+  artifactKey: Guid(26ff2760dcd37464996eaee30729de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile3.prefab using Guid(26ff2760dcd37464996eaee30729de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bc516688d1248d603da1bd177cb261') in 0.008590 seconds 
+  Import took 0.010657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile2.prefab
+  artifactKey: Guid(92708350b8f04c840ab5aedfdaf0a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile2.prefab using Guid(92708350b8f04c840ab5aedfdaf0a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79124e17dd9eff76252c6fa1426a12f0') in 0.009031 seconds 
+  Import took 0.011084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill1.prefab
+  artifactKey: Guid(2c4ada107f11c85428cf29b036419497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill1.prefab using Guid(2c4ada107f11c85428cf29b036419497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7737ff58c2de262b1f26ea639598c102') in 0.008410 seconds 
+  Import took 0.010519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill3.prefab
+  artifactKey: Guid(fe666a9f165fbd54e8c1c94e5dc97844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill3.prefab using Guid(fe666a9f165fbd54e8c1c94e5dc97844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0183c30b12e996d13081b5996d3f4c57') in 0.008788 seconds 
+  Import took 0.010875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet3_Pile1.prefab
+  artifactKey: Guid(072a75a17fa7779498df2abb44cebbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet3_Pile1.prefab using Guid(072a75a17fa7779498df2abb44cebbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74160f92e5eda4106c9a4a38f45fca54') in 0.008828 seconds 
+  Import took 0.010864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_FireFX_1.prefab
+  artifactKey: Guid(3657e241574237049b72dc96ff528963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_FireFX_1.prefab using Guid(3657e241574237049b72dc96ff528963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b78c76bc1b96f754bf44facf2ce2f4') in 0.010982 seconds 
+  Import took 0.013315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile7.prefab
+  artifactKey: Guid(5b0f81d63d2d6304fa865c1e83717bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile7.prefab using Guid(5b0f81d63d2d6304fa865c1e83717bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c56f8002d514c0f98ce47322f145706') in 0.008646 seconds 
+  Import took 0.010675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint2.prefab
+  artifactKey: Guid(072537822f4dbbf4d917cc66f1089efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint2.prefab using Guid(072537822f4dbbf4d917cc66f1089efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83662f21130e40b62d95c8888b2e4f1') in 0.008585 seconds 
+  Import took 0.010628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile1.prefab
+  artifactKey: Guid(73793fc1c8a9f624bb3f5ff90269b349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile1.prefab using Guid(73793fc1c8a9f624bb3f5ff90269b349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462a46c93f5176d9833fe5b6e2be6a12') in 0.008438 seconds 
+  Import took 0.010621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet2_Pile1.prefab
+  artifactKey: Guid(11b4daab94d9a2246bb3a79c702bbfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet2_Pile1.prefab using Guid(11b4daab94d9a2246bb3a79c702bbfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f112c532b6a78d6c45cb78a053be70d') in 0.008629 seconds 
+  Import took 0.010735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile5.prefab
+  artifactKey: Guid(709dbea6368909c449b3347f716c000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile5.prefab using Guid(709dbea6368909c449b3347f716c000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7027a6069639f29f0229580c933fa57e') in 0.009287 seconds 
+  Import took 0.011507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile1.prefab
+  artifactKey: Guid(12e0c419a8782ff44a5dff7f666f311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile1.prefab using Guid(12e0c419a8782ff44a5dff7f666f311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b650980ec1df85b2acb18ac286c173ca') in 0.009271 seconds 
+  Import took 0.011362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill2.prefab
+  artifactKey: Guid(25abdf0df20e34d438180f8e6ee580ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill2.prefab using Guid(25abdf0df20e34d438180f8e6ee580ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8011832614cde40e93d56b0feca632') in 0.008714 seconds 
+  Import took 0.010794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile4.prefab
+  artifactKey: Guid(b74080c501552fd4c9970add9fc707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile4.prefab using Guid(b74080c501552fd4c9970add9fc707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5b4ed68c01c42ee5eda9a8c50a8490') in 0.008842 seconds 
+  Import took 0.011177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile1.prefab
+  artifactKey: Guid(0325e4ce2f90a5e40af6be6f026693fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile1.prefab using Guid(0325e4ce2f90a5e40af6be6f026693fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bd95427a2515c036e1bda1e8c44f6c') in 0.008369 seconds 
+  Import took 0.010475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick3.prefab
+  artifactKey: Guid(ed6b384defd87db4490733e9fe40da03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick3.prefab using Guid(ed6b384defd87db4490733e9fe40da03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383d63e3c0c64bf863d12d6ea6ecc0d2') in 0.008325 seconds 
+  Import took 0.010426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill5.prefab
+  artifactKey: Guid(b8c1ed278e5882e4aafbe094be466a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill5.prefab using Guid(b8c1ed278e5882e4aafbe094be466a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178c7308a0d54d5a5f25feaa5fbd5526') in 0.008610 seconds 
+  Import took 0.010674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile4.prefab
+  artifactKey: Guid(156fa266bf990364a807f84c5530a5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile4.prefab using Guid(156fa266bf990364a807f84c5530a5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7265369b0e42fee11503ae44da08e4') in 0.011093 seconds 
+  Import took 0.013099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile2.prefab
+  artifactKey: Guid(c8829fa2ecdc9fb44ad80d79ee74afc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile2.prefab using Guid(c8829fa2ecdc9fb44ad80d79ee74afc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfbdf64efa2c80570ae90d19ca90a72') in 0.008353 seconds 
+  Import took 0.010395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.240916 seconds.
+  path: Assets/POLYART_Ancient Village/Models
+  artifactKey: Guid(a59a0c3b29e98ff41af372bc655ba481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models using Guid(a59a0c3b29e98ff41af372bc655ba481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c87b0f98fe308a9ed66f6e2d7106704') in 0.005094 seconds 
+  Import took 0.007181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.104042 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Mountain
+  artifactKey: Guid(5e3385ebf1ea05a47bb0eb492d622e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Mountain using Guid(5e3385ebf1ea05a47bb0eb492d622e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1995ea0fac6959764bf9c909355b0c7') in 0.004864 seconds 
+  Import took 0.007219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.066671 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1
+  artifactKey: Guid(c268ee6f73d7f194dba7445cbb0750d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1 using Guid(c268ee6f73d7f194dba7445cbb0750d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508c897a99375abf8be2a8a495408f54') in 0.005116 seconds 
+  Import took 0.007129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037599 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill1.fbx
+  artifactKey: Guid(e28bdfb0f19492f4c90a654d5d281c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill1.fbx using Guid(e28bdfb0f19492f4c90a654d5d281c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fca84caabbbc5d72c286602402d3cdf') in 0.208116 seconds 
+  Import took 0.210265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill5.fbx
+  artifactKey: Guid(d7a260bca1a34194ebcc80e76490a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill5.fbx using Guid(d7a260bca1a34194ebcc80e76490a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5cb71ab13e5d9a17246cba98a9b84d') in 0.017637 seconds 
+  Import took 0.019878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill4.fbx
+  artifactKey: Guid(966c880680b9b684b9fd2e028d5302b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill4.fbx using Guid(966c880680b9b684b9fd2e028d5302b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f69300459bdc11193aa227cfe2b0fc') in 0.014741 seconds 
+  Import took 0.016707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill6.fbx
+  artifactKey: Guid(28d63cac84da5004cb3cf818cc2094d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill6.fbx using Guid(28d63cac84da5004cb3cf818cc2094d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae66c84286c344560385a7d3f9a1ff36') in 0.015199 seconds 
+  Import took 0.017166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill2.fbx
+  artifactKey: Guid(292d96ecbec6cde47a83c1100b28214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill2.fbx using Guid(292d96ecbec6cde47a83c1100b28214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a85353c68a66d14cd6a4b17eb16c0f8') in 0.013714 seconds 
+  Import took 0.015708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill3.fbx
+  artifactKey: Guid(04c4d8ff72bf678458b6b0d1ee3714fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Mountain/Mountainset_1/PA_Mountainset1_hill3.fbx using Guid(04c4d8ff72bf678458b6b0d1ee3714fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517e0f1dea527298c56e6060a06f91eb') in 0.014412 seconds 
+  Import took 0.016384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.748666 seconds.
+  path: Assets/POLYART_Ancient Village/FX
+  artifactKey: Guid(628789871a5f7b147aa6037ee50e17b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/FX using Guid(628789871a5f7b147aa6037ee50e17b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee6e2e91447bf99430180eac01ca84b') in 0.004863 seconds 
+  Import took 0.006911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046182 seconds.
+  path: Assets/POLYART_Ancient Village/FX/PA_FireFX.prefab
+  artifactKey: Guid(9753f860076a70942b7417f548ddde2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/FX/PA_FireFX.prefab using Guid(9753f860076a70942b7417f548ddde2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0badafcefb97a12ac8101f2b9b07469') in 0.008887 seconds 
+  Import took 0.011151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.895353 seconds.
+  path: Assets/POLYART_Ancient Village/Materials
+  artifactKey: Guid(eb217b23ea5ad5c4ca6ee4a00da74fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials using Guid(eb217b23ea5ad5c4ca6ee4a00da74fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8620a73cee91342cfe297c0d5aebce') in 0.004756 seconds 
+  Import took 0.006861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.120217 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain
+  artifactKey: Guid(8b764d3a0dfd587448694754f94cc623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain using Guid(8b764d3a0dfd587448694754f94cc623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab493ed654ef89641858812d90fed8d') in 0.002213 seconds 
+  Import took 0.004640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045942 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill1_mtl.mat
+  artifactKey: Guid(7c8fa1cbf4345ea49a0819862e246811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill1_mtl.mat using Guid(7c8fa1cbf4345ea49a0819862e246811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b297b5e0b98693377e28d336bcd7f30') in 0.013048 seconds 
+  Import took 0.015225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill2_mtl.mat
+  artifactKey: Guid(ff93bb40574b13f4f9672f91cc4496f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill2_mtl.mat using Guid(ff93bb40574b13f4f9672f91cc4496f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd385482ca13eb1786fdfce369abb9daa') in 0.009706 seconds 
+  Import took 0.012233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset2_hill4_mtl.mat
+  artifactKey: Guid(036bbabbe3c9dfe4badcc5043d26fb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset2_hill4_mtl.mat using Guid(036bbabbe3c9dfe4badcc5043d26fb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f70e5844dba51195b54ace5b4abcbf') in 0.009551 seconds 
+  Import took 0.011948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill5_mtl.mat
+  artifactKey: Guid(24cf0fc9e3cc32f47b2dcd214aabf6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill5_mtl.mat using Guid(24cf0fc9e3cc32f47b2dcd214aabf6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771bfa87638c5fa8212580001c326b66') in 0.008302 seconds 
+  Import took 0.010639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset2_hill3_mtl.mat
+  artifactKey: Guid(f830bb6eb5a291f43b8597dc8e05065b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset2_hill3_mtl.mat using Guid(f830bb6eb5a291f43b8597dc8e05065b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721d61750a51fa178a4b568464f418c5') in 0.008263 seconds 
+  Import took 0.010443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill4_mtl.mat
+  artifactKey: Guid(d2c6f12e726a26a4f8979b3515df6ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill4_mtl.mat using Guid(d2c6f12e726a26a4f8979b3515df6ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577d18557e52bcf1038c43335e8b218a') in 0.008802 seconds 
+  Import took 0.010819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset2_hill2_mtl.mat
+  artifactKey: Guid(04105047a43ee82479e84c9ecee80445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset2_hill2_mtl.mat using Guid(04105047a43ee82479e84c9ecee80445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1796d8ebafca04e57ac82c8bbc9a69') in 0.008296 seconds 
+  Import took 0.010350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill6_mtl.mat
+  artifactKey: Guid(c5969836d50e72645be60ec9cac5877d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill6_mtl.mat using Guid(c5969836d50e72645be60ec9cac5877d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f06315b24de9b341a20dc458210a50d') in 0.008207 seconds 
+  Import took 0.010208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill3_mtl.mat
+  artifactKey: Guid(71351122dda4e4847864be8be2ed44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill3_mtl.mat using Guid(71351122dda4e4847864be8be2ed44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1375b37e6e9f999ecb378e339426d62b') in 0.008711 seconds 
+  Import took 0.010744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset2_hill1_mtl.mat
+  artifactKey: Guid(fc30e0aee338d2e45a9f42567f15fec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset2_hill1_mtl.mat using Guid(fc30e0aee338d2e45a9f42567f15fec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc158c8ab0c0b9261295332f33465659') in 0.008356 seconds 
+  Import took 0.010328 seconds .
+
