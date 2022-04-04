@@ -1,0 +1,245 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.0b14 (eb6fa39764cb) revision 15429539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'nl' Physical Memory: 32697 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.0b14\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/magic/Documents/GIP Game/Party Island/Party-Island/Party Island
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63568
+Successfully changed project path to: C:/Users/magic/Documents/GIP Game/Party Island/Party-Island/Party Island
+C:/Users/magic/Documents/GIP Game/Party Island/Party-Island/Party Island
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 30.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.0b14 (eb6fa39764cb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/magic/Documents/GIP Game/Party Island/Party-Island/Party Island/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005059 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.557 seconds
+Domain Reload Profiling:
+	ReloadAssembly (557ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (391ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+				TypeCache.Initialize (104ms)
+					TypeCache.ScanAssembly (103ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+				TypeCache.Initialize (155ms)
+					TypeCache.ScanAssembly (153ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (58.2 KB). Loaded Objects now: 2056.
+Memory consumption went from 268.4 MB to 268.4 MB.
+Total: 3.701000 ms (FindLiveObjects: 0.132000 ms CreateObjectMapping: 0.048200 ms MarkObjects: 3.433300 ms  DeleteObjects: 0.086600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 660590.468151 seconds.
+  path: Assets/Materials/Sand.mat
+  artifactKey: Guid(46c8ac4e553293a47b32d190769de946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand.mat using Guid(46c8ac4e553293a47b32d190769de946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d814e2bb781329c18c90a6335653ee') in 0.106849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 329.298048 seconds.
+  path: Assets/Lowpoly_Crates
+  artifactKey: Guid(80c075daba2978e42bf8ed636e25008f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates using Guid(80c075daba2978e42bf8ed636e25008f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0541515a61e1233c79dae67a24db44') in 0.005733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.099189 seconds.
+  path: Assets/Lowpoly_Crates/Meshes
+  artifactKey: Guid(65dc1f590252f0248ae5781ed0e5c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes using Guid(65dc1f590252f0248ae5781ed0e5c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9367664253e1ea6397538874f7eae4d') in 0.005673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070595 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_01.fbx
+  artifactKey: Guid(35b0539c06d90884da7fb5a3a09953a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_01.fbx using Guid(35b0539c06d90884da7fb5a3a09953a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3493d3ea205bcfa4ea17d2f0bf461d9') in 0.049291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_15.fbx
+  artifactKey: Guid(33b904e8d80028b4fa75cff29015a59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_15.fbx using Guid(33b904e8d80028b4fa75cff29015a59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895973d28f97f79fe8648f0f7937d229') in 0.018824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_14.fbx
+  artifactKey: Guid(84d44352b3d109a45b705049de4e0ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_14.fbx using Guid(84d44352b3d109a45b705049de4e0ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda14573a3e0c89eb3e1cda14b55ced9') in 0.015433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_04.fbx
+  artifactKey: Guid(1fff77d5b015c8e43bbc771440109276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_04.fbx using Guid(1fff77d5b015c8e43bbc771440109276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075e3685acd3f51b3531065bc8047ca6') in 0.013585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_06.fbx
+  artifactKey: Guid(44fc872fb462bbe48b2eaeaf05bf867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_06.fbx using Guid(44fc872fb462bbe48b2eaeaf05bf867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9029c8e1695918680859751fdcdad52e') in 0.013203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_07.fbx
+  artifactKey: Guid(428ff4211032ac247ada0b3350894e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_07.fbx using Guid(428ff4211032ac247ada0b3350894e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b33f17487405927b5b38843c162b0fc') in 0.014668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_13.fbx
+  artifactKey: Guid(ebdf5029633472d4e99bd7632dbd81a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_13.fbx using Guid(ebdf5029633472d4e99bd7632dbd81a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec777c6d447a5380e49fd9e2c38ef69') in 0.014733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_09.fbx
+  artifactKey: Guid(ccdd3d6ee3bf6cd4c83bec2b56f8be15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_09.fbx using Guid(ccdd3d6ee3bf6cd4c83bec2b56f8be15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b62490c57bdd130a1d7722a6ae77c0') in 0.014531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_10.fbx
+  artifactKey: Guid(3e20d22e84f92df4e96bf1c4e0b1a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_10.fbx using Guid(3e20d22e84f92df4e96bf1c4e0b1a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5f81430bbfb751d17a6a13d536f5c7') in 0.014329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_08.fbx
+  artifactKey: Guid(5c99934c3c02ecd4590f102e26e68f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_08.fbx using Guid(5c99934c3c02ecd4590f102e26e68f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b50f53fc969c445fcf7b91edde61d29') in 0.016340 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
