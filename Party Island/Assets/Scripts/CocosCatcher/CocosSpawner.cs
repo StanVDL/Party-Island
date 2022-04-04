@@ -20,7 +20,7 @@ public class CocosSpawner : MonoBehaviour
 
         int randomCocos = Random.Range(0, 1);
 
-        if (Random.value <= 0.6f)
+        if (Random.value <= 0.3f)
         {
             Instantiate(Cocos, new Vector3(Random.Range(-xBounds, xBounds), yBound), Quaternion.identity);
         }
