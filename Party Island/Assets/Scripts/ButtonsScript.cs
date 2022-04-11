@@ -10,4 +10,9 @@ public class ButtonsScript : MonoBehaviour
         SceneManager.LoadScene("CocosCatcher");
         ScoreScript.instance.ResetPoints();
     }
+
+    public void BackToLobby()
+    {
+        SceneManager.LoadScene("Island");
+    }
 }
