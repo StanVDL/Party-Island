@@ -5,6 +5,7 @@ using UnityEngine;
 public class CocosFunctions : MonoBehaviour
 {
     public GameObject GoodCoconut;
+    public GameObject BadCoconut;
 
     void Update()
     {
@@ -23,5 +24,13 @@ public class CocosFunctions : MonoBehaviour
             Destroy(gameObject);
             ScoreScript.instance.AddPoint();
         }
+
+        if (collision.gameObject.tag == "Crate" && gameObject == BadCoconut)
+        {
+            Destroy(gameObject);
+            HeartScript.Health -= 1;
+        }
     }
+
+
 }

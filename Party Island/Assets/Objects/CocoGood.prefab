@@ -128,3 +128,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoodCoconut: {fileID: 6217318230400226633}
+  BadCoconut: {fileID: 4683587125220582460, guid: 9d33870d523bd4e42be260009f4b10b7, type: 3}
