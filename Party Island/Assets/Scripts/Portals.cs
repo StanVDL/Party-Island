@@ -20,5 +20,6 @@ public class Portals : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene(2);
+        ScoreScript.scoreValue = 0;
     }
 }
