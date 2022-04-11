@@ -13,14 +13,15 @@ public class CocosFunctions : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Floor" && gameObject != GoodCoconut)
+        if (collision.gameObject.tag == "Floor")
         {
             Destroy(gameObject);
         }
 
-        if (collision.gameObject.tag == "Crate")
+        if (collision.gameObject.tag == "Crate" && gameObject == GoodCoconut)
         {
             Destroy(gameObject);
+            ScoreScript.instance.AddPoint();
         }
     }
 }
