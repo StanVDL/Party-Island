@@ -7,6 +7,9 @@ public class HeartScript : MonoBehaviour
     public GameObject heart1, heart2, heart3;
     public static int Health;
 
+    public GameObject gameOverMenu;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +43,8 @@ public class HeartScript : MonoBehaviour
                 heart1.gameObject.SetActive(false);
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
-                Time.timeScale = 0;
+                gameOverMenu.gameObject.SetActive(true);
+
                 break;
         }
     }

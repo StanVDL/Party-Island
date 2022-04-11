@@ -9,6 +9,7 @@ public class CocosSpawner : MonoBehaviour
 
     public float xBounds, yBound;
 
+
     void Start()
     {
         StartCoroutine(SpawnRandomCocos());

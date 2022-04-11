@@ -36,4 +36,10 @@ public class ScoreScript : MonoBehaviour
             PlayerPrefs.SetInt("highscore", scoreValue);
         }
     }
+
+    public void ResetPoints()
+    {
+        scoreValue = 0;
+        score.text = "Score: " + scoreValue.ToString();
+    }
 }
