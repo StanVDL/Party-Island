@@ -44,7 +44,7 @@ public class HeartScript : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
                 gameOverMenu.gameObject.SetActive(true);
-
+                Cursor.lockState = CursorLockMode.None;
                 break;
         }
     }
