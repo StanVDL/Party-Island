@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class AchievementPortal : MonoBehaviour
 {
+    public GameObject AchievementMenu;
+
     public void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Achievements");
+        AchievementMenu.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
     }
 }
