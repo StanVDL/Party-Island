@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Portals : MonoBehaviour
+public class AchievementPortal : MonoBehaviour
 {
     public void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(2);
-        ScoreScript.scoreValue = 0;
+        SceneManager.LoadScene("Achievements");
     }
 }
