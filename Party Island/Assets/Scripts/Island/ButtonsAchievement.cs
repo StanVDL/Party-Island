@@ -18,8 +18,6 @@ public class ButtonsAchievement : MonoBehaviour
     public void BackFromSecondPage()
     {
         CocosCatcherMenu.SetActive(false);
-        FlappyCocosMenu.SetActive(false);
-
         MainAchievementMenu.SetActive(true);
     }
 }
