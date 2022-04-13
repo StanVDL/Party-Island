@@ -1,10 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CheckAchievements : MonoBehaviour
 {
     public GameObject CocosCatcherCheckmark1, CocosCatcherCheckmark2, CocosCatcherCheckmark3;
+
+    int HighscoreValueCheck;
+
+    void Start()
+    {
+        HighscoreValueCheck = PlayerPrefs.GetInt("highscore");
+    }
 
     void Update()
     {
@@ -31,7 +39,7 @@ public class CheckAchievements : MonoBehaviour
 
     void CocosCatcherAchievement3()
     {
-        if (ScoreScript.scoreValue == 0 && HeartScript.Health == 0)
+        if (HighscoreValueCheck >= 5)
         {
             CocosCatcherCheckmark3.SetActive(true);
         }
