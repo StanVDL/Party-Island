@@ -129,3 +129,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GoodCoconut: {fileID: 6217318230400226633, guid: d7c7c84e407d7db409d12be0592f5e71, type: 3}
   BadCoconut: {fileID: 4683587125220582460}
+  fallSpeed: 8
+  rb: {fileID: 0}

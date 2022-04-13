@@ -7,9 +7,21 @@ public class CocosFunctions : MonoBehaviour
     public GameObject GoodCoconut;
     public GameObject BadCoconut;
 
-    void Update()
+    public float fallSpeed;
+
+    public Rigidbody rb;
+
+    void Start()
     {
-       
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate()
+    {
+        if (rb.velocity.magnitude > fallSpeed)
+        {
+            rb.velocity = Vector3.ClampMagnitude(rb.velocity, fallSpeed);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
