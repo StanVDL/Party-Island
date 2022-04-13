@@ -5,10 +5,21 @@ using UnityEngine;
 public class ButtonsAchievement : MonoBehaviour
 {
     public GameObject AchievementMenu;
+    public GameObject CocosCatcherMenu;
+    public GameObject FlappyCocosMenu;
+    public GameObject MainAchievementMenu;
 
     public void BackButton()
     {
         AchievementMenu.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void BackFromSecondPage()
+    {
+        CocosCatcherMenu.SetActive(false);
+        FlappyCocosMenu.SetActive(false);
+
+        MainAchievementMenu.SetActive(true);
     }
 }

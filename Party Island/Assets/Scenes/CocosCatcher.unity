@@ -1510,10 +1510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cocos: {fileID: 6217318230400226633, guid: d7c7c84e407d7db409d12be0592f5e71, type: 3}
   BadCocos: {fileID: 4683587125220582460, guid: 9d33870d523bd4e42be260009f4b10b7, type: 3}
-  GoodCocosSpeed: 0
-  BadCocosSpeed: 0
-  xBounds: 11
-  yBound: 15.45
+  xBounds: 7
+  yBound: 13
 --- !u!4 &1364300213
 Transform:
   m_ObjectHideFlags: 0
