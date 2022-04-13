@@ -1689,6 +1689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 408237095}
+  - component: {fileID: 408237096}
   m_Layer: 0
   m_Name: AchievementMenu
   m_TagString: Untagged
@@ -1712,6 +1713,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &408237096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408237094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9380b49480cadc4f9ec466fb1c15b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CocosCatcherCheckmark1: {fileID: 599137763}
+  CocosCatcherCheckmark2: {fileID: 1026287647}
+  CocosCatcherCheckmark3: {fileID: 1888884447}
 --- !u!1001 &409528748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2711,7 +2727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &599137764
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4209,7 +4225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1026287648
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6859,7 +6875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1888884448
 RectTransform:
   m_ObjectHideFlags: 0
