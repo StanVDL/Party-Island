@@ -567,7 +567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &387497731
 RectTransform:
   m_ObjectHideFlags: 0
@@ -603,6 +603,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 917f04801d2fb3e4ba727289f73ba04c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OptionsMenu: {fileID: 387497730}
+  MainMenu: {fileID: 2139295720}
+  qualityDropdown: {fileID: 420819004}
 --- !u!1 &420819002
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,7 +914,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 636644021}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2139295722}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OptionsMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &636644021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2392,7 +2407,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1823977992}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 387497732}
+        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
+        m_MethodName: BackToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1823977992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3014,7 +3041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2139295721
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3050,3 +3077,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b315c432035702949a2e604c13d1ff43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OptionsMenus: {fileID: 387497730}
+  MainMenus: {fileID: 2139295720}
