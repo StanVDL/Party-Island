@@ -12,5 +12,6 @@ public class AchievementPortal : MonoBehaviour
         AchievementMenu.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0;
+        PauseMenu.IsAchievementMenuActive = true;
     }
 }

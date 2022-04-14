@@ -7,10 +7,11 @@ public class PauseMenu : MonoBehaviour
     public GameObject Menu;
 
     public static bool GameIsPaused = false;
+    public static bool IsAchievementMenuActive = false;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && IsAchievementMenuActive == false)
         {
             if (GameIsPaused)
             {
