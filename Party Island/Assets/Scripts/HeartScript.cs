@@ -9,8 +9,8 @@ public class HeartScript : MonoBehaviour
 
     public GameObject gameOverMenu;
 
+    public GameObject CocosSpawner;
 
-    // Start is called before the first frame update
     void Start()
     {
         Health = 3;
@@ -19,7 +19,6 @@ public class HeartScript : MonoBehaviour
         heart3.gameObject.SetActive(true);
     }
 
-    // Update is called once per frame
     void Update()
     {
         switch(Health)
@@ -44,6 +43,8 @@ public class HeartScript : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
                 gameOverMenu.gameObject.SetActive(true);
+                CocosSpawner.SetActive(false);
+                CrateMovement.instance.NoHeartsLeft();
                 Cursor.lockState = CursorLockMode.None;
                 break;
         }

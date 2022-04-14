@@ -1297,6 +1297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4201fbf0763d17448a0e9f120ebf0521, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CocosSpawner: {fileID: 1364300210}
 --- !u!1 &1241689623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,3 +2163,4 @@ MonoBehaviour:
   heart2: {fileID: 856916453}
   heart3: {fileID: 1673523902}
   gameOverMenu: {fileID: 1231429387}
+  CocosSpawner: {fileID: 1364300210}

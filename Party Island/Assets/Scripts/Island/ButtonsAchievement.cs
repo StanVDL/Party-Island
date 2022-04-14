@@ -20,4 +20,10 @@ public class ButtonsAchievement : MonoBehaviour
         CocosCatcherMenu.SetActive(false);
         MainAchievementMenu.SetActive(true);
     }
+
+    public void CocosCatcherAchievements()
+    {
+        MainAchievementMenu.SetActive(false);
+        CocosCatcherMenu.SetActive(true);
+    }
 }
