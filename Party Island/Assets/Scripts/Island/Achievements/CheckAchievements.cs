@@ -11,6 +11,7 @@ public class CheckAchievements : MonoBehaviour
 
     void Start()
     {
+        //Haalt de highscore vanuit CocosCatcher reeds op in de lobby zodat de reeds voltooide achievements al inladen in het menu
         HighscoreValueCheck = PlayerPrefs.GetInt("highscore");
     }
 
@@ -21,6 +22,7 @@ public class CheckAchievements : MonoBehaviour
         CocosCatcherAchievement3();
     }
 
+    //Functie van de 3de achievement bij CocosCatcher
     void CocosCatcherAchievement1()
     {
         if (ScoreScript.scoreValue >= 10)
@@ -29,6 +31,7 @@ public class CheckAchievements : MonoBehaviour
         }
     }
 
+    //Functie van de 2de achievement bij CocosCatcher
     void CocosCatcherAchievement2()
     {
         if (ScoreScript.scoreValue >= 15 && HeartScript.Health == 3)
@@ -37,6 +40,7 @@ public class CheckAchievements : MonoBehaviour
         }
     }
 
+    //Functie van de 1ste achievement bij CocosCatcher
     void CocosCatcherAchievement3()
     {
         if (HighscoreValueCheck >= 5)

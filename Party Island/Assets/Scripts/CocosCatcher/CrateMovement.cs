@@ -22,6 +22,7 @@ public class CrateMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        //Crate movement
         float h = Input.GetAxis("Horizontal");
 
         if (h > 0)
@@ -40,6 +41,7 @@ public class CrateMovement : MonoBehaviour
         }
     }
 
+    //Functie die opgeroepen wordt wanneer er geen hartjes meer over zijn, in dit geval om de CrateMovement te pauzeren
     public void NoHeartsLeft()
     {
         float h = Input.GetAxis("Horizontal");

@@ -20,12 +20,15 @@ public class ScoreScript : MonoBehaviour
 
     void Start()
     {
+        //Zorgt ervoor dat de highscore opgeslagen wordt
         highscoreValue = PlayerPrefs.GetInt("highscore", highscoreValue);
 
+        //Toont de score en highscore tekst met hun standaard waarde 0
         score.text = "Score: " + scoreValue.ToString();
         highScore.text = "Highscore: " + highscoreValue.ToString();
     }
 
+    //Functie die er voor zorgt dat de score met 1 vermeerderd wordt en de highscore aanpast indien dit nodig is
     public void AddPoint()
     {
         scoreValue += 1;
@@ -37,6 +40,7 @@ public class ScoreScript : MonoBehaviour
         }
     }
 
+    //Functie die de score van CocosCatcher reset wanneer de game opnieuw gestart wordt
     public void ResetPoints()
     {
         scoreValue = 0;

@@ -22,9 +22,9 @@ public class PlayerMovement : MonoBehaviour
 
     bool isGrounded;
 
-    // Update is called once per frame
     void Update()
     {
+        //Kijkt de positie na voor de isGrounded variable en kijkt of deze een ander object onder zich raakt
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundLayerMask);
 
         if (isGrounded && velocity.y < 0)
@@ -35,10 +35,12 @@ public class PlayerMovement : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
+        //Beweeg functie
         Vector3 move = transform.right * x + transform.forward * z;
 
         controller.Move(move * speed * Time.deltaTime);
 
+        //Zorgt dat er gesprongen kan worden met de player
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);

@@ -7,6 +7,7 @@ public class AchievementPortal : MonoBehaviour
 {
     public GameObject AchievementMenu;
 
+    //Zorgt ervoor dat het achievement menu geopend wordt wanneer het portaal wordt aangeraakt
     public void OnTriggerEnter(Collider other)
     {
         AchievementMenu.SetActive(true);

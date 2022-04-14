@@ -25,6 +25,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    //Functie om de game terug te doen hervatten en het menu te sluiten
     public void Resume()
     {
         Menu.SetActive(false);
@@ -33,6 +34,7 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
+    //Functie om de game te pauzeren en het menu te openen
     public void Pause()
     {
         Menu.SetActive(true);
