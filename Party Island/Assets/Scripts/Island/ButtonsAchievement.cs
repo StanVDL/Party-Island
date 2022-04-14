@@ -13,6 +13,7 @@ public class ButtonsAchievement : MonoBehaviour
     {
         AchievementMenu.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+        Time.timeScale = 1;
     }
 
     public void BackFromSecondPage()
