@@ -42,4 +42,9 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
         Cursor.lockState = CursorLockMode.None;
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
