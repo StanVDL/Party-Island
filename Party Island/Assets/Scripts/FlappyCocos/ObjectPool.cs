@@ -8,7 +8,7 @@ public class ObjectPool : MonoBehaviour
 
     private Queue<GameObject> pool;
 
-    void Start()
+    void Awake()
     {
         pool = new Queue<GameObject>();
         GrowPool();
@@ -16,7 +16,9 @@ public class ObjectPool : MonoBehaviour
 
     public GameObject GetFromPool()
     {
-        return pool.Dequeue();
+        var nextObject = pool.Dequeue();
+        nextObject.SetActive(false);
+        return nextObject;
     }
 
     public void ReturnToPool(GameObject obj)
