@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
+    private int score = 0;
+
     private static GameManager manager;
     public static GameManager Instance
     {
@@ -42,13 +44,8 @@ public class GameManager : MonoBehaviour
         OnPlayerDeath = new UnityEvent();
     }
 
-    void Start()
+    public void AdjustScore(int adjustment)
     {
-        
-    }
-
-    void Update()
-    {
-        
+        score += adjustment;
     }
 }

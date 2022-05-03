@@ -11,4 +11,12 @@ public class CollisionTrigger : MonoBehaviour
             GameManager.Instance.OnPlayerDeath.Invoke();
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+
+        }
+    }
 }
