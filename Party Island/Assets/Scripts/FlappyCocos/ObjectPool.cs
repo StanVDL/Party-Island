@@ -16,8 +16,13 @@ public class ObjectPool : MonoBehaviour
 
     public GameObject GetFromPool()
     {
+        if (pool.Count <= 0)
+        {
+            GrowPool();
+        }
+
         var nextObject = pool.Dequeue();
-        nextObject.SetActive(false);
+        nextObject.SetActive(true);
         return nextObject;
     }
 

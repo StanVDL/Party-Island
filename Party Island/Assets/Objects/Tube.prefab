@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1221563661166010802}
   - component: {fileID: 3174903066023655187}
   - component: {fileID: 7508574660180075162}
+  - component: {fileID: 347364014}
   m_Layer: 0
   m_Name: Tube
-  m_TagString: Untagged
+  m_TagString: Tube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,11 +29,11 @@ Transform:
   m_GameObject: {fileID: 4645873588754053233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.85, y: -9.61, z: 24.26}
-  m_LocalScale: {x: 2.978549, y: 7.132047, z: 3.5558}
+  m_LocalScale: {x: 2.2914276, y: 16, z: 3.5558}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1221563661166010802
 MeshFilter:
@@ -97,3 +98,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &347364014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645873588754053233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59337e8c8e1c4f4a86d29ec7c1d56cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
