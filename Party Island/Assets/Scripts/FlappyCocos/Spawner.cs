@@ -12,12 +12,12 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float xPos;
     [SerializeField] private float zPos;
 
-    private ObjectPool pool;
+    [SerializeField] private ObjectPool tunnelPool;
+    [SerializeField] private ObjectPool scoreTriggerPool;
 
     void Start()
     {
         GameManager.Instance.OnPlayerDeath.AddListener(OnPlayerDeath);
-        pool = GetComponent<ObjectPool>();
         StartCoroutine(SpawnAsync());
     }
 
@@ -28,8 +28,8 @@ public class Spawner : MonoBehaviour
             yield return new WaitForSeconds(spawnRate);
 
             //Spawn tubes
-            var topTube = pool.GetFromPool();
-            var bottomTube = pool.GetFromPool();
+            var topTube = tunnelPool.GetFromPool();
+            var bottomTube = tunnelPool.GetFromPool();
 
             var gapPosition = Random.Range(gapRange.x, gapRange.y);
             bottomTube.transform.position = new Vector3(xPos, gapPosition - gapSize - bottomTube.transform.localScale.y/2, zPos);
