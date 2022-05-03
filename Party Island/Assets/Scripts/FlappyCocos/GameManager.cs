@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     }
 
     public UnityEvent OnPlayerDeath;
+    public UnityEvent OnScoreChange;
 
     private void Awake()
     {
@@ -47,5 +48,6 @@ public class GameManager : MonoBehaviour
     public void AdjustScore(int adjustment)
     {
         score += adjustment;
+        OnScoreChange.Invoke();
     }
 }

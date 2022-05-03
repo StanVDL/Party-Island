@@ -16,7 +16,7 @@ public class CollisionTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-
+            GameManager.Instance.AdjustScore(1);
         }
     }
 }
