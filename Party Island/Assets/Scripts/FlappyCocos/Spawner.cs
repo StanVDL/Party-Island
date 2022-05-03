@@ -16,6 +16,7 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
+        GameManager.Instance.OnPlayerDeath.AddListener(OnPlayerDeath);
         pool = GetComponent<ObjectPool>();
         StartCoroutine(SpawnAsync());
     }
@@ -34,5 +35,10 @@ public class Spawner : MonoBehaviour
             bottomTube.transform.position = new Vector3(xPos, gapPosition - gapSize - bottomTube.transform.localScale.y/2, zPos);
             topTube.transform.position = new Vector3(xPos, gapPosition + gapSize + topTube.transform.localScale.y/2, zPos);
         }
+    }
+
+    private void OnPlayerDeath()
+    {
+        StopAllCoroutines();
     }
 }
