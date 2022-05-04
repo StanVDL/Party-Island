@@ -7,7 +7,7 @@ using UnityEngine;
 public class CocosMovement : MonoBehaviour
 {
     [SerializeField] private float force;
-    [SerializeField] private float fallGravity;
+    public float fallGravity;
     [SerializeField] private ForceMode forceMode;
     [SerializeField] private float maxHeight;
     private Rigidbody CocosRB;

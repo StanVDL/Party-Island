@@ -5,5 +5,5 @@ using TMPro;
 
 public class UIController : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI scoreText;
+    //[SerializeField] private TextMeshProUGUI scoreText;
 }

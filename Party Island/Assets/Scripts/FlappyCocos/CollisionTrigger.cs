@@ -11,5 +11,4 @@ public class CollisionTrigger : MonoBehaviour
             GameManager.Instance.OnPlayerDeath.Invoke();
         }
     }
-
 }
