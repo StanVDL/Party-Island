@@ -36,4 +36,5 @@ public class CocosMovement : MonoBehaviour
     {
         playerIsAlive = false;
     }
+
 }
