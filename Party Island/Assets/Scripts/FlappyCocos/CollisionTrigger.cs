@@ -9,6 +9,7 @@ public class CollisionTrigger : MonoBehaviour
         if (other.collider.CompareTag("Player"))
         {
             GameManager.Instance.OnPlayerDeath.Invoke();
+
         }
     }
 }

@@ -14,6 +14,8 @@ public class CocosMovement : MonoBehaviour
 
     private bool playerIsAlive = true;
 
+    public GameObject GameOverMenu;
+
     void Start()
     {
         CocosRB = GetComponent<Rigidbody>();
@@ -35,6 +37,8 @@ public class CocosMovement : MonoBehaviour
     private void OnPlayerDeath()
     {
         playerIsAlive = false;
+        GameOverMenu.SetActive(true);
+        Time.timeScale = 0;
     }
 
 }

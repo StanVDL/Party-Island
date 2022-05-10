@@ -1487,7 +1487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &934561756
 Transform:
   m_ObjectHideFlags: 0
@@ -1516,6 +1516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ded9735baa04994ab604ea0a0da5779, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOverMenu: {fileID: 934561755}
 --- !u!1 &1014973334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3433,13 +3434,13 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2835354353874776610, guid: 442dcb6ec5efbd346921553caedc341a, type: 3}
+      propertyPath: GameOverMenus
+      value: 
+      objectReference: {fileID: 1643956179}
     - target: {fileID: 4645873588754053233, guid: 442dcb6ec5efbd346921553caedc341a, type: 3}
       propertyPath: m_Name
       value: Tube
-      objectReference: {fileID: 0}
-    - target: {fileID: 4645873588754053233, guid: 442dcb6ec5efbd346921553caedc341a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5179893396682717591, guid: 442dcb6ec5efbd346921553caedc341a, type: 3}
       propertyPath: m_RootOrder
@@ -3552,6 +3553,10 @@ PrefabInstance:
       propertyPath: fallGravity
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
+      propertyPath: GameOverMenu
+      value: 
+      objectReference: {fileID: 934561755}
     - target: {fileID: 6477749347539148904, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: m_Name
       value: Coconut

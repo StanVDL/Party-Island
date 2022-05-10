@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5179893396682717591
 Transform:
   m_ObjectHideFlags: 0
@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1221563661166010802
 MeshFilter:
@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  ScoreTrigger: {fileID: 0}
 --- !u!114 &2835354353874776610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,3 +125,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20d4155b9fb07064db6b1fe74cf36998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOverMenus: {fileID: 0}
