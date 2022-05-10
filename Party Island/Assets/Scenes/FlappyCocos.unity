@@ -3543,7 +3543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: force
-      value: 15
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: forceMode
@@ -3555,12 +3555,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: fallGravity
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: GameOverMenu
       value: 
       objectReference: {fileID: 934561755}
+    - target: {fileID: 6477749347539148887, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
+      propertyPath: m_Drag
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477749347539148887, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148904, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: m_Name
       value: Coconut
