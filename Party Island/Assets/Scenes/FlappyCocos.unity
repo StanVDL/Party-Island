@@ -3543,7 +3543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: force
-      value: 20
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
+      propertyPath: forceMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: maxHeight

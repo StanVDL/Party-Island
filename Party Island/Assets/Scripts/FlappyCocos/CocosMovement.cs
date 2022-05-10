@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody))]
 
@@ -20,18 +21,16 @@ public class CocosMovement : MonoBehaviour
     {
         CocosRB = GetComponent<Rigidbody>();
         GameManager.Instance.OnPlayerDeath.AddListener(OnPlayerDeath);
+        CocosRB.useGravity = false;
     }
 
     void Update()
     {
         if (!playerIsAlive) return;
 
-        if (Input.GetKeyDown(KeyCode.Space) && transform.position.y <= maxHeight)
-        {
-            CocosRB.AddForce(Vector3.up * force, forceMode);
-        }
+        FlyingCocos();
 
-        CocosRB.AddForce(Vector3.down * fallGravity, ForceMode.Acceleration);
+        FallSpeedDown();
     }
 
     private void OnPlayerDeath()
@@ -41,4 +40,20 @@ public class CocosMovement : MonoBehaviour
         Time.timeScale = 0;
     }
 
+    void FallSpeedDown()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            CocosRB.useGravity = true;
+            CocosRB.AddForce(Vector3.down * fallGravity, ForceMode.Acceleration);
+        }
+    }
+
+    void FlyingCocos()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && transform.position.y <= maxHeight)
+        {
+            CocosRB.AddForce(Vector3.up * force, forceMode);
+        }
+    }
 }
