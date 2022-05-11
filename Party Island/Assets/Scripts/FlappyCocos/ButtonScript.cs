@@ -21,5 +21,6 @@ public class ButtonScript : MonoBehaviour
     public void BackToLobby()
     {
         SceneManager.LoadScene("Island");
+        Time.timeScale = 1;
     }
 }
