@@ -45,8 +45,9 @@ public class CocosMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             CocosRB.useGravity = true;
-            CocosRB.AddForce(Vector3.down * fallGravity, ForceMode.VelocityChange);
         }
+
+        CocosRB.AddForce(Vector3.down * fallGravity, ForceMode.Acceleration);
     }
 
     void FlyingCocos()

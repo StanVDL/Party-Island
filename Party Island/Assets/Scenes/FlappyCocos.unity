@@ -3543,7 +3543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: force
-      value: 30
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: forceMode
@@ -3551,11 +3551,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: maxHeight
-      value: 50
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: fallGravity
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: GameOverMenu
