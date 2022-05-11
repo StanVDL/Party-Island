@@ -22,6 +22,7 @@ public class CocosMovement : MonoBehaviour
         CocosRB = GetComponent<Rigidbody>();
         GameManager.Instance.OnPlayerDeath.AddListener(OnPlayerDeath);
         CocosRB.useGravity = false;
+        Time.timeScale = 0;
     }
 
     void Update()
@@ -57,6 +58,7 @@ public class CocosMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && transform.position.y <= maxHeight)
         {
+            Time.timeScale = 1;
             CocosRB.AddForce(Vector3.up * force, forceMode);
         }
     }
