@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5f1259cc93bb1bb459f5ec3f8094c1c9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - The Bold Font
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c5b84f6dc71f80449bdaa85b6e8a6ecd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
