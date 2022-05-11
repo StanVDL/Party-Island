@@ -47,7 +47,10 @@ public class CocosMovement : MonoBehaviour
             CocosRB.useGravity = true;
         }
 
-        CocosRB.AddForce(Vector3.down * fallGravity, ForceMode.Acceleration);
+        if (CocosRB.useGravity == true)
+        {
+            CocosRB.AddForce(Vector3.down * fallGravity, ForceMode.Acceleration);
+        }      
     }
 
     void FlyingCocos()
