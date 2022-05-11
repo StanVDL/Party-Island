@@ -14,6 +14,7 @@ public class ButtonScript : MonoBehaviour
         SceneManager.LoadScene("FlappyCocos");
         ScoreSystem.instance.ResetPoints();
         Time.timeScale = 1;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     //Functie om terug naar de lobby te gaan vanuit het game over menu bij FlappyCocos

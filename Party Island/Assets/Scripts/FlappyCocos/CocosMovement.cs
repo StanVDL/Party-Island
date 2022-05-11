@@ -39,6 +39,7 @@ public class CocosMovement : MonoBehaviour
         playerIsAlive = false;
         GameOverMenu.SetActive(true);
         Time.timeScale = 0;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void FallSpeedDown()
