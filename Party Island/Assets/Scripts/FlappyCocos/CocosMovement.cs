@@ -16,6 +16,10 @@ public class CocosMovement : MonoBehaviour
     private bool playerIsAlive = true;
 
     public GameObject GameOverMenu;
+    public GameObject PauseMenu;
+
+    public static bool GameIsPaused = false;
+    public static bool IsPauseMenuActive = false;
 
     void Start()
     {
@@ -32,6 +36,19 @@ public class CocosMovement : MonoBehaviour
         FlyingCocos();
 
         FallSpeedDown();
+
+        if (Input.GetKeyDown(KeyCode.Escape) && IsPauseMenuActive == false)
+        {
+            if (GameIsPaused)
+            {
+                Resume();
+            }
+
+            else
+            {
+                Pause();
+            }
+        }
     }
 
     private void OnPlayerDeath()
@@ -62,5 +79,23 @@ public class CocosMovement : MonoBehaviour
             Time.timeScale = 1;
             CocosRB.AddForce(Vector3.up * force, forceMode);
         }
+    }
+
+    //Functie om de game terug te doen hervatten en het menu te sluiten
+    public void Resume()
+    {
+        PauseMenu.SetActive(false);
+        Time.timeScale = 1;
+        GameIsPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    //Functie om de game te pauzeren en het menu te openen
+    public void Pause()
+    {
+        PauseMenu.SetActive(true);
+        Time.timeScale = 0;
+        GameIsPaused = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }
