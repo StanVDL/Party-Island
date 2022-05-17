@@ -19,7 +19,7 @@ public class Spawner : MonoBehaviour
         StartCoroutine(SpawnAsync());
     }
 
-    private IEnumerator SpawnAsync()
+    public IEnumerator SpawnAsync()
     {
         while (true)
         {

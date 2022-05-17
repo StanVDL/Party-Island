@@ -21,12 +21,17 @@ public class CocosMovement : MonoBehaviour
     public static bool GameIsPaused = false;
     public static bool IsPauseMenuActive = false;
 
+    //public GameObject TubePool;
+    //public GameObject Tubes;
+
     void Start()
     {
         CocosRB = GetComponent<Rigidbody>();
         GameManager.Instance.OnPlayerDeath.AddListener(OnPlayerDeath);
         CocosRB.useGravity = false;
         Time.timeScale = 0;
+        //TubePool.SetActive(false);
+        //Tubes.SetActive(false);
     }
 
     void Update()
@@ -76,6 +81,8 @@ public class CocosMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && transform.position.y <= maxHeight)
         {
+            //TubePool.SetActive(true);
+            //Tubes.SetActive(true);
             Time.timeScale = 1;
             CocosRB.AddForce(Vector3.up * force, forceMode);
         }
