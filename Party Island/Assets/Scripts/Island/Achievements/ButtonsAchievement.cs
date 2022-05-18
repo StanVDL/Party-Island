@@ -22,6 +22,7 @@ public class ButtonsAchievement : MonoBehaviour
     public void BackFromSecondPage()
     {
         CocosCatcherMenu.SetActive(false);
+        FlappyCocosMenu.SetActive(false);
         MainAchievementMenu.SetActive(true);
     }
 
@@ -29,6 +30,15 @@ public class ButtonsAchievement : MonoBehaviour
     public void CocosCatcherAchievements()
     {
         MainAchievementMenu.SetActive(false);
+        FlappyCocosMenu.SetActive(false);
         CocosCatcherMenu.SetActive(true);
+    }
+    
+    //Functie om de pagina van FlappyCocos te openen in het achievement menu
+    public void FlappyCocosAchievements()
+    {
+        MainAchievementMenu.SetActive(false);
+        CocosCatcherMenu.SetActive(false);
+        FlappyCocosMenu.SetActive(true);
     }
 }
