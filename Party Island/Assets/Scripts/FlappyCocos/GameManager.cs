@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     //private int score = 0;
 
     private static GameManager manager;
+    
+    //Zorgt voor een instance in GameManager
     public static GameManager Instance
     {
         get

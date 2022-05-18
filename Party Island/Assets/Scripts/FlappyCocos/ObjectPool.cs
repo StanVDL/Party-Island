@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    [SerializeField] private GameObject prefab;
+    public GameObject prefab;
 
     private Queue<GameObject> pool;
 
@@ -14,6 +14,7 @@ public class ObjectPool : MonoBehaviour
         GrowPool();
     }
 
+    //Functie om de tubes uit de pool te halen
     public GameObject GetFromPool()
     {
         if (pool.Count <= 0)
@@ -26,13 +27,15 @@ public class ObjectPool : MonoBehaviour
         return nextObject;
     }
 
+    //Functie om de pool opnieuw te laden
     public void ReturnToPool(GameObject obj)
     {
         obj.SetActive(false);
         pool.Enqueue(obj);
     }
 
-    private void GrowPool()
+    //Functie om automatisch een nieuwe tube (obstakel) toe te voegen aan de spawn pool
+    public void GrowPool()
     {
         for (int i = 0; i < 10; i++)
         {

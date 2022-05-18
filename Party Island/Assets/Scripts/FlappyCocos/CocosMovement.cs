@@ -7,10 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class CocosMovement : MonoBehaviour
 {
-    [SerializeField] private float force;
+    public float force;
     public float fallGravity;
-    [SerializeField] private ForceMode forceMode;
-    [SerializeField] private float maxHeight;
+    public ForceMode forceMode;
+    public float maxHeight;
     private Rigidbody CocosRB;
 
     private bool playerIsAlive = true;
@@ -34,6 +34,7 @@ public class CocosMovement : MonoBehaviour
         //Tubes.SetActive(false);
     }
 
+    //Zorgt dat speler niet direct dood is, dat de juiste functies opgeroepen worden en dat de pauze menu werkt
     void Update()
     {
         if (!playerIsAlive) return;
@@ -56,6 +57,7 @@ public class CocosMovement : MonoBehaviour
         }
     }
 
+    //Bepaald te acties die uitgevoerd worden wanneer player dood is
     private void OnPlayerDeath()
     {
         playerIsAlive = false;
@@ -64,6 +66,7 @@ public class CocosMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
     }
 
+    //Zorgt ervoor dat de game start wanneer op spatie gedrukt wordt en die pas vanaf dan naar beneden valt
     void FallSpeedDown()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -77,6 +80,7 @@ public class CocosMovement : MonoBehaviour
         }      
     }
 
+    //Zorgt dat de cocosnoot terug omhoog gaat bij het drukken op spatie
     void FlyingCocos()
     {
         if (Input.GetKeyDown(KeyCode.Space) && transform.position.y <= maxHeight)

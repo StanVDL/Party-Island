@@ -4,26 +4,29 @@ using UnityEngine;
 
 public class TubeController : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    public float speed;
 
     public GameObject ScoreTrigger;
 
-    private void Start()
+    void Start()
     {
         GameManager.Instance.OnPlayerDeath.AddListener(OnPlayerDeath);
     }
 
+    //Update functie waarin gezorgd wordt dat de tubes bewegen
     void Update()
     {
         transform.position += Vector3.left * (speed * Time.deltaTime);
     }
 
-    private void OnPlayerDeath()
+    //Stopt de tube movement wanneer player dood is
+    public void OnPlayerDeath()
     {
         speed = 0f;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    //Voegt 1 punt toe aan de score wanneer de player door de tube opening gaat
+    public void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player" && gameObject == ScoreTrigger)
         {

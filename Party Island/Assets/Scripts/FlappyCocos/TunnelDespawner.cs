@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class TunnelDespawner : MonoBehaviour
 {
-    [SerializeField] private ObjectPool pool;
+    public ObjectPool pool;
 
+    //Zorgt dat de tubes verdwijnen zodra ze uit beeld zijn
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Tube"))

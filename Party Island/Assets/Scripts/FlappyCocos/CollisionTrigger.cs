@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CollisionTrigger : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision other)
+    //Triggered de player dood
+    public void OnCollisionEnter(Collision other)
     {
         if (other.collider.CompareTag("Player"))
         {

@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public static bool IsAchievementMenuActive = false;
 
+    //Update functie waarmee gezorgd wordt dat de pauze menu werkt door op escape te drukken
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) && IsAchievementMenuActive == false)

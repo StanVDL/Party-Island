@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private float spawnRate; //Time between spawns in seconds
-    [SerializeField] private Vector2 gapRange;
-    [SerializeField] private float gapSize;
-    [SerializeField] private float xPos;
-    [SerializeField] private float zPos;
+    public float spawnRate; //Tijd tussen de spawns in seconden
+    public Vector2 gapRange;
+    public float gapSize;
+    public float xPos;
+    public float zPos;
 
-    [SerializeField] private ObjectPool tubePool;
-    [SerializeField] private ObjectPool scoreTriggerPool;
+    public ObjectPool tubePool;
+    public ObjectPool scoreTriggerPool;
 
     void Start()
     {
@@ -19,6 +19,7 @@ public class Spawner : MonoBehaviour
         StartCoroutine(SpawnAsync());
     }
 
+    //Bepaald de spawn gegevens van de tubes in FlappyCocos
     public IEnumerator SpawnAsync()
     {
         while (true)
@@ -37,7 +38,8 @@ public class Spawner : MonoBehaviour
         }
     }
 
-    private void OnPlayerDeath()
+    //Stopt alle acties wanneer player dood is
+    public void OnPlayerDeath()
     {
         StopAllCoroutines();
     }

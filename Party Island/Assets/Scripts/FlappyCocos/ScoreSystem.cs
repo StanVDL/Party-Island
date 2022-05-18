@@ -13,7 +13,7 @@ public class ScoreSystem : MonoBehaviour
     public Text score2;
     public Text highScore2;
 
-    private void Awake()
+    void Awake()
     {
         instance = this;
     }
