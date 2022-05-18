@@ -26,9 +26,9 @@ public class CheckAchievements : MonoBehaviour
     }
 
     //Functie van de 3de achievement bij CocosCatcher
-    void CocosCatcherAchievement1()
+    void CocosCatcherAchievement3()
     {
-        if (ScoreScript.scoreValue >= 10 && HeartScript.Health == 1)
+        if (ScoreScript.highscoreValue >= 10 && HeartScript.Health == 1)
         {
             CocosCatcherCheckmark1.SetActive(true);
         }
@@ -37,18 +37,45 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 2de achievement bij CocosCatcher
     void CocosCatcherAchievement2()
     {
-        if (ScoreScript.scoreValue >= 25 && HeartScript.Health == 3)
+        if (ScoreScript.highscoreValue >= 25 && HeartScript.Health == 3)
         {
             CocosCatcherCheckmark2.SetActive(true);
         }
     }
 
     //Functie van de 1ste achievement bij CocosCatcher
-    void CocosCatcherAchievement3()
+    void CocosCatcherAchievement1()
     {
-        if (ScoreScript.scoreValue >= 20)
+        if (ScoreScript.scoreValue >= 20 || ScoreScript.highscoreValue >= 20)
         {
             CocosCatcherCheckmark3.SetActive(true);
+        }
+    }
+
+    //Functie van de 1ste achievement bij FlappyCocos
+    void FlappyCocosAchievement1()
+    {
+        if (ScoreSystem.scoreValue2 >= 15 || ScoreSystem.highscoreValue2 >= 15)
+        {
+            FlappyCocosCheckmark3.SetActive(true);
+        }
+    }
+
+    //Functie van de 2de achievement bij FlappyCocos
+    void FlappyCocosAchievement2()
+    {
+        if (ScoreSystem.scoreValue2 >= 25 || ScoreSystem.highscoreValue2 >= 25)
+        {
+            FlappyCocosCheckmark2.SetActive(true);
+        }
+    }
+
+    //Functie van de 3de achievement bij FlappyCocos
+    void FlappyCocosAchievement3()
+    {
+        if (ScoreSystem.scoreValue2 >= 50 || ScoreSystem.highscoreValue2 >= 50)
+        {
+            FlappyCocosCheckmark1.SetActive(true);
         }
     }
 }
