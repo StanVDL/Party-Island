@@ -23,21 +23,25 @@ public class CheckAchievements : MonoBehaviour
         CocosCatcherAchievement1();
         CocosCatcherAchievement2();
         CocosCatcherAchievement3();
+
+        FlappyCocosAchievement1();
+        FlappyCocosAchievement2();
+        FlappyCocosAchievement3();
     }
 
     //Functie van de 3de achievement bij CocosCatcher
     void CocosCatcherAchievement3()
     {
-        if (ScoreScript.highscoreValue >= 10 && HeartScript.Health == 1)
+        if (ScoreScript.scoreValue >= 30 || ScoreScript.highscoreValue >= 30)
         {
-            CocosCatcherCheckmark1.SetActive(true);
+           CocosCatcherCheckmark1.SetActive(true);
         }
     }
 
     //Functie van de 2de achievement bij CocosCatcher
     void CocosCatcherAchievement2()
     {
-        if (ScoreScript.highscoreValue >= 25 && HeartScript.Health == 3)
+        if (ScoreScript.scoreValue >= 25 || ScoreScript.highscoreValue >= 25)
         {
             CocosCatcherCheckmark2.SetActive(true);
         }
