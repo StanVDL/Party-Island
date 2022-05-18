@@ -21,7 +21,7 @@ public class ScoreScript : MonoBehaviour
     void Start()
     {
         //Zorgt ervoor dat de highscore opgeslagen wordt
-        highscoreValue = PlayerPrefs.GetInt("highscore", highscoreValue);
+        highscoreValue = PlayerPrefs.GetInt("highscores", highscoreValue);
 
         //Toont de score en highscore tekst met hun standaard waarde 0
         score.text = "Score: " + scoreValue.ToString();
@@ -36,7 +36,7 @@ public class ScoreScript : MonoBehaviour
 
         if (highscoreValue < scoreValue)
         {
-            PlayerPrefs.SetInt("highscore", scoreValue);
+            PlayerPrefs.SetInt("highscores", scoreValue);
         }
     }
 

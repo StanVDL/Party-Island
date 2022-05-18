@@ -21,7 +21,7 @@ public class ScoreSystem : MonoBehaviour
     void Start()
     {
         //Zorgt ervoor dat de highscore opgeslagen wordt
-        highscoreValue2 = PlayerPrefs.GetInt("highscoreFlappy", highscoreValue2);
+        highscoreValue2 = PlayerPrefs.GetInt("highscoreFlappys", highscoreValue2);
 
         //Toont de score en highscore tekst met hun standaard waarde 0
         score2.text = "Score: " + scoreValue2.ToString();
@@ -36,7 +36,7 @@ public class ScoreSystem : MonoBehaviour
 
         if (highscoreValue2 < scoreValue2)
         {
-            PlayerPrefs.SetInt("highscoreFlappy", scoreValue2);
+            PlayerPrefs.SetInt("highscoreFlappys", scoreValue2);
         }
     }
 

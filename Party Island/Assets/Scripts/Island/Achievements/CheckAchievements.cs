@@ -11,11 +11,11 @@ public class CheckAchievements : MonoBehaviour
     int HighscoreValueCheck;
     int HighscoreValueCheck2;
 
-    void Start()
+    void Awake()
     {
         //Haalt de highscore vanuit CocosCatcher reeds op in de lobby zodat de reeds voltooide achievements al inladen in het menu
-        HighscoreValueCheck = PlayerPrefs.GetInt("highscore");
-        HighscoreValueCheck2 = PlayerPrefs.GetInt("highscoreFlappy");
+        HighscoreValueCheck = PlayerPrefs.GetInt("highscores");
+        HighscoreValueCheck2 = PlayerPrefs.GetInt("highscoreFlappys");
     }
 
     void Update()
