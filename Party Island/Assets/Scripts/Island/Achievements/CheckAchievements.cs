@@ -6,13 +6,16 @@ using UnityEngine.UI;
 public class CheckAchievements : MonoBehaviour
 {
     public GameObject CocosCatcherCheckmark1, CocosCatcherCheckmark2, CocosCatcherCheckmark3;
+    public GameObject FlappyCocosCheckmark1, FlappyCocosCheckmark2, FlappyCocosCheckmark3;
 
     int HighscoreValueCheck;
+    int HighscoreValueCheck2;
 
     void Start()
     {
         //Haalt de highscore vanuit CocosCatcher reeds op in de lobby zodat de reeds voltooide achievements al inladen in het menu
         HighscoreValueCheck = PlayerPrefs.GetInt("highscore");
+        HighscoreValueCheck2 = PlayerPrefs.GetInt("highscoreFlappy");
     }
 
     void Update()
@@ -43,7 +46,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 1ste achievement bij CocosCatcher
     void CocosCatcherAchievement3()
     {
-        if (HighscoreValueCheck >= 20)
+        if (ScoreScript.scoreValue >= 20)
         {
             CocosCatcherCheckmark3.SetActive(true);
         }
