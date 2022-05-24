@@ -8,9 +8,6 @@ public class CheckAchievements : MonoBehaviour
     public GameObject CocosCatcherCheckmark1, CocosCatcherCheckmark2, CocosCatcherCheckmark3;
     public GameObject FlappyCocosCheckmark1, FlappyCocosCheckmark2, FlappyCocosCheckmark3;
 
-    int HighscoreValueCheck;
-    int HighscoreValueCheck2;
-
     void Awake()
     {
         //Haalt de highscore vanuit CocosCatcher reeds op in de lobby zodat de reeds voltooide achievements al inladen in het menu
@@ -32,7 +29,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 3de achievement bij CocosCatcher
     void CocosCatcherAchievement3()
     {
-        if (ScoreScript.scoreValue >= 30 || ScoreScript.highscoreValue >= 30)
+        if (ScoreScript.highscoreValue >= 30)
         {
            CocosCatcherCheckmark1.SetActive(true);
         }
@@ -41,7 +38,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 2de achievement bij CocosCatcher
     void CocosCatcherAchievement2()
     {
-        if (ScoreScript.scoreValue >= 25 || ScoreScript.highscoreValue >= 25)
+        if (ScoreScript.highscoreValue >= 25)
         {
             CocosCatcherCheckmark2.SetActive(true);
         }
@@ -59,7 +56,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 1ste achievement bij FlappyCocos
     void FlappyCocosAchievement1()
     {
-        if (ScoreSystem.scoreValue2 >= 15 || ScoreSystem.highscoreValue2 >= 15)
+        if (ScoreSystem.highscoreValue2 >= 15)
         {
             FlappyCocosCheckmark3.SetActive(true);
         }
@@ -68,7 +65,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 2de achievement bij FlappyCocos
     void FlappyCocosAchievement2()
     {
-        if (ScoreSystem.scoreValue2 >= 25 || ScoreSystem.highscoreValue2 >= 25)
+        if (ScoreSystem.highscoreValue2 >= 25)
         {
             FlappyCocosCheckmark2.SetActive(true);
         }
@@ -77,7 +74,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 3de achievement bij FlappyCocos
     void FlappyCocosAchievement3()
     {
-        if (ScoreSystem.scoreValue2 >= 50 || ScoreSystem.highscoreValue2 >= 50)
+        if (ScoreSystem.highscoreValue2 >= 50)
         {
             FlappyCocosCheckmark1.SetActive(true);
         }
