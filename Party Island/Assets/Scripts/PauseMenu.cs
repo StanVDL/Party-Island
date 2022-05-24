@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -33,6 +34,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1;
         GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void OptionMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     //Functie om de game te pauzeren en het menu te openen
