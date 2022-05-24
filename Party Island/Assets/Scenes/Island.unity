@@ -2233,9 +2233,9 @@ MonoBehaviour:
   CocosCatcherCheckmark1: {fileID: 1888884447}
   CocosCatcherCheckmark2: {fileID: 1026287647}
   CocosCatcherCheckmark3: {fileID: 599137763}
-  FlappyCocosCheckmark1: {fileID: 1888884447}
-  FlappyCocosCheckmark2: {fileID: 1026287647}
-  FlappyCocosCheckmark3: {fileID: 599137763}
+  FlappyCocosCheckmark1: {fileID: 2032601089}
+  FlappyCocosCheckmark2: {fileID: 953819255}
+  FlappyCocosCheckmark3: {fileID: 1098803752}
 --- !u!1001 &409528748
 PrefabInstance:
   m_ObjectHideFlags: 0
