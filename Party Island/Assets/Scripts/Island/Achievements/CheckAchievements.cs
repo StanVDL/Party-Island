@@ -14,8 +14,8 @@ public class CheckAchievements : MonoBehaviour
     void Awake()
     {
         //Haalt de highscore vanuit CocosCatcher reeds op in de lobby zodat de reeds voltooide achievements al inladen in het menu
-        HighscoreValueCheck = PlayerPrefs.GetInt("highscores");
-        HighscoreValueCheck2 = PlayerPrefs.GetInt("highscoreFlappys");
+        ScoreScript.highscoreValue = PlayerPrefs.GetInt("highscores");
+        ScoreSystem.highscoreValue2 = PlayerPrefs.GetInt("highscoreFlappys");
     }
 
     void Update()
@@ -50,7 +50,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 1ste achievement bij CocosCatcher
     void CocosCatcherAchievement1()
     {
-        if (ScoreScript.scoreValue >= 20 || ScoreScript.highscoreValue >= 20)
+        if (ScoreScript.highscoreValue >= 20)
         {
             CocosCatcherCheckmark3.SetActive(true);
         }
