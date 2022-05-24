@@ -8,5 +8,6 @@ public class Portal : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("FlappyCocos");
+        ScoreSystem.scoreValue2 = 0;
     }
 }
