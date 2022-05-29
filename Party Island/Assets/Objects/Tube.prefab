@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  ScoreTrigger: {fileID: 0}
+  ScoreTrigger: {fileID: 5470491269719083426, guid: 0685e3a48addbc04cb0e7570eb3f7b6a, type: 3}
 --- !u!114 &2835354353874776610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,4 +125,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20d4155b9fb07064db6b1fe74cf36998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameOverMenus: {fileID: 0}

@@ -3624,7 +3624,7 @@ PrefabInstance:
       objectReference: {fileID: 1385826718}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: force
-      value: 18
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: TubePool
@@ -3644,7 +3644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: fallGravity
-      value: 14
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6477749347539148886, guid: 515cb979f4d561c4ab8298b2b92246f1, type: 3}
       propertyPath: GameOverMenu

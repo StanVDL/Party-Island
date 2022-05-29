@@ -43,18 +43,18 @@ public class CocosMovement : MonoBehaviour
 
         FallSpeedDown();
 
-        if (Input.GetKeyDown(KeyCode.Escape) && IsPauseMenuActive == false)
-        {
-            if (GameIsPaused)
-            {
-                Resume();
-            }
+       // if (Input.GetKeyDown(KeyCode.Escape) && IsPauseMenuActive == false)
+        //{
+         //   if (GameIsPaused)
+          //  {
+            //    Resume();
+            //}
 
-            else
-            {
-                Pause();
-            }
-        }
+ //           else
+   //         {
+     //           Pause();
+       //     }
+        //}
     }
 
     //Bepaald te acties die uitgevoerd worden wanneer player dood is
