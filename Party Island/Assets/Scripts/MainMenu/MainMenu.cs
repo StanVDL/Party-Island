@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("Island");
+        Time.timeScale = 1;
     }
 
     //Functie om naar de settingsmenu te gaan vanuit het hoofdmenu
