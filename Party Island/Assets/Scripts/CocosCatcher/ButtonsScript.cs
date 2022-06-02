@@ -13,11 +13,13 @@ public class ButtonsScript : MonoBehaviour
         SceneManager.LoadScene("CocosCatcher");
         CocosSpawner.SetActive(true);
         ScoreScript.instance.ResetPoints();
+        Time.timeScale = 1;
     }
 
     //Functie om terug naar de lobby te gaan vanuit het game over menu bij CocosCatcher
     public void BackToLobby()
     {
         SceneManager.LoadScene("Island");
+        Time.timeScale = 1;
     }
 }

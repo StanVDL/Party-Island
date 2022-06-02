@@ -53,5 +53,15 @@ public class HeartScript : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 break;
         }
+
+        if (gameOverMenu.activeSelf == true)
+        {
+            Time.timeScale = 0;
+        }
+
+        if (gameOverMenu.activeSelf == false)
+        {
+            Time.timeScale = 1;
+        }
     }
 }
