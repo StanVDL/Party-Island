@@ -63,5 +63,6 @@ public class HeartScript : MonoBehaviour
         {
             Time.timeScale = 1;
         }
+
     }
 }

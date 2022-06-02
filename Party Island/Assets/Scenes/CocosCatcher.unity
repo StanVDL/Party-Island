@@ -1434,6 +1434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CocosSpawner: {fileID: 1364300210}
+  gameOverMenu: {fileID: 1223332168}
 --- !u!4 &1223332170
 Transform:
   m_ObjectHideFlags: 0
