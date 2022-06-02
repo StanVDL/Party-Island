@@ -17,12 +17,10 @@ public class CocosMovement : MonoBehaviour
 
     public GameObject GameOverMenu;
     public GameObject PauseMenu;
+    public GameObject PressToStart;
 
     public static bool GameIsPaused = false;
     public static bool IsPauseMenuActive = false;
-
-    //public GameObject TubePool;
-    //public GameObject Tubes;
 
     void Start()
     {
@@ -30,8 +28,6 @@ public class CocosMovement : MonoBehaviour
         GameManager.Instance.OnPlayerDeath.AddListener(OnPlayerDeath);
         CocosRB.useGravity = false;
         Time.timeScale = 0;
-        //TubePool.SetActive(false);
-        //Tubes.SetActive(false);
     }
 
     //Zorgt dat speler niet direct dood is, dat de juiste functies opgeroepen worden en dat de pauze menu werkt
@@ -42,19 +38,6 @@ public class CocosMovement : MonoBehaviour
         FlyingCocos();
 
         FallSpeedDown();
-
-       // if (Input.GetKeyDown(KeyCode.Escape) && IsPauseMenuActive == false)
-        //{
-         //   if (GameIsPaused)
-          //  {
-            //    Resume();
-            //}
-
- //           else
-   //         {
-     //           Pause();
-       //     }
-        //}
     }
 
     //Bepaald te acties die uitgevoerd worden wanneer player dood is
@@ -72,6 +55,7 @@ public class CocosMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             CocosRB.useGravity = true;
+            PressToStart.SetActive(false);
         }
 
         if (CocosRB.useGravity == true)
@@ -85,8 +69,6 @@ public class CocosMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && transform.position.y <= maxHeight)
         {
-            //TubePool.SetActive(true);
-            //Tubes.SetActive(true);
             Time.timeScale = 1;
             CocosRB.AddForce(Vector3.up * force, forceMode);
         }
