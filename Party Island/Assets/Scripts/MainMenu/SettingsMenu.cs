@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class SettingsMenu : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class SettingsMenu : MonoBehaviour
     public TMPro.TMP_Dropdown qualityDropdown;
 
     const string prefName = "optionsvalue";
+
+    public AudioMixer audioMixer;
 
     void Awake()
     {
@@ -43,7 +46,7 @@ public class SettingsMenu : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-        Debug.Log("Volume");
+        audioMixer.SetFloat("Volume", volume);
     }
 
     public void SetFullscreen(bool isFullscreen)
