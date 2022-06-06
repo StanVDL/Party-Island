@@ -40,4 +40,14 @@ public class SettingsMenu : MonoBehaviour
         OptionsMenu.SetActive(false);
         MainMenu.SetActive(true);
     }
+
+    public void SetVolume(float volume)
+    {
+        Debug.Log("Volume");
+    }
+
+    public void SetFullscreen(bool isFullscreen)
+    {
+        Screen.fullScreen = isFullscreen;
+    }
 }
