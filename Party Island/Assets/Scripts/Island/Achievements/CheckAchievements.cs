@@ -29,7 +29,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 3de achievement bij CocosCatcher
     void CocosCatcherAchievement3()
     {
-        if (ScoreScript.highscoreValue >= 30)
+        if (ScoreScript.highscoreValue >= 50)
         {
            CocosCatcherCheckmark1.SetActive(true);
         }
@@ -38,7 +38,7 @@ public class CheckAchievements : MonoBehaviour
     //Functie van de 2de achievement bij CocosCatcher
     void CocosCatcherAchievement2()
     {
-        if (ScoreScript.highscoreValue >= 25)
+        if (ScoreScript.highscoreValue >= 35)
         {
             CocosCatcherCheckmark2.SetActive(true);
         }
